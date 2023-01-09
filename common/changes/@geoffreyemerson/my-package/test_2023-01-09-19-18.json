@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@geoffreyemerson/my-package",
+      "comment": "very important change",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@geoffreyemerson/my-package"
+}
