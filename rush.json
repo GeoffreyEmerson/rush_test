@@ -4,7 +4,11 @@
   "pnpmVersion": "7.23.0",
   "nodeSupportedVersionRange": ">=16.13.0 <17.0.0",
   "gitPolicy": {},
-  "repository": {},
+  "repository": {
+    "url": "https://github.com/geoffreyemerson/my-package",
+    "defaultBranch": "main",
+    "defaultRemote": "origin"
+  },
   "eventHooks": {
     "preRushInstall": [],
     "postRushInstall": [],
