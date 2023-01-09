@@ -14,7 +14,7 @@
   "variants": [],
   "projects": [
     {
-      "packageName": "my-package",
+      "packageName": "@geoffreyemerson/my-package",
       "projectFolder": "packages/my-package"
     }
   ]
