@@ -4,11 +4,7 @@
   "pnpmVersion": "6.7.1",
   "nodeSupportedVersionRange": ">=12.13.0 <13.0.0 || >=14.15.0 <15.0.0 || >=16.13.0 <17.0.0",
   "gitPolicy": {},
-  "repository": {
-    "url": "https://github.com/microsoft/rush-example",
-    "defaultBranch": "main",
-    "defaultRemote": "origin"
-  },
+  "repository": {},
   "eventHooks": {
     "preRushInstall": [],
     "postRushInstall": [],
