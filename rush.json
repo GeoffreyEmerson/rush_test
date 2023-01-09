@@ -19,7 +19,8 @@
   "projects": [
     {
       "packageName": "@geoffreyemerson/my-package",
-      "projectFolder": "packages/my-package"
+      "projectFolder": "packages/my-package",
+      "shouldPublish": true
     }
   ]
 }
