@@ -15,7 +15,7 @@
   "projects": [
     {
       "packageName": "my-package",
-      "projectFolder": "package/my-package"
+      "projectFolder": "packages/my-package"
     }
   ]
 }
