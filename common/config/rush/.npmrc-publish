@@ -19,3 +19,5 @@
 #   //registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}
 #
 @geoffreyemerson:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=${GITHUB_PERSONAL_TOKEN}
+
