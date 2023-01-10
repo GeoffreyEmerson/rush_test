@@ -2,8 +2,8 @@
   "changes": [
     {
       "packageName": "@geoffreyemerson/my-package",
-      "comment": "add suffix",
-      "type": "none"
+      "comment": "very important change",
+      "type": "patch"
     }
   ],
   "packageName": "@geoffreyemerson/my-package"
