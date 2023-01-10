@@ -3,7 +3,10 @@
   "rushVersion": "5.88.0",
   "pnpmVersion": "7.23.0",
   "nodeSupportedVersionRange": ">=16.13.0 <17.0.0",
-  "gitPolicy": {},
+  "gitPolicy": {
+    "versionBumpCommitMessage": "versionBumpCommitMessage [skip-ci]",
+    "changeLogUpdateCommitMessage": "changeLogUpdateCommitMessage [skip-ci]"
+  },
   "repository": {
     "url": "https://github.com/geoffreyemerson/rush_test",
     "defaultBranch": "main",
