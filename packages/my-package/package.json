@@ -1,6 +1,6 @@
 {
   "name": "@geoffreyemerson/my-package",
-  "version": "1.0.0",
+  "version": "1.0.0-mySuffix",
   "description": "test package",
   "main": "src/index.js",
   "scripts": {
