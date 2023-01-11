@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@geoffreyemerson/my-package",
+      "comment": "a second alpha change",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@geoffreyemerson/my-package"
+}
