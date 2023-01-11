@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@geoffreyemerson/my-package",
+      "comment": "an experimental change",
+      "type": "major"
+    }
+  ],
+  "packageName": "@geoffreyemerson/my-package"
+}
