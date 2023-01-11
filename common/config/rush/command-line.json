@@ -166,6 +166,42 @@
     //    */
     //   // "autoinstallerName": "my-task"
     // }
+    {
+      "commandKind": "bulk",
+      "name": "test",
+      "summary": "Run all tests in each package",
+      "description": "This will run the test script for all the packages listed in the individual package.json file",
+      "safeForSimultaneousRushProcesses": true,
+      "enableParallelism": true,
+      "ignoreDependencyOrder": false,
+      "ignoreMissingScript": false,
+      "allowWarningsInSuccessfulBuild": true,
+      "incremental": true
+    },
+    {
+      "commandKind": "bulk",
+      "name": "lint",
+      "summary": "Run all lint script in each package",
+      "description": "This will run the lint script for all the packages listed in the individual package.json file",
+      "safeForSimultaneousRushProcesses": true,
+      "enableParallelism": true,
+      "ignoreDependencyOrder": true,
+      "ignoreMissingScript": false,
+      "allowWarningsInSuccessfulBuild": true,
+      "incremental": true
+    },
+    {
+      "commandKind": "bulk",
+      "name": "format",
+      "summary": "Run all format script in each package.",
+      "description": "This will run prettier on all of our files",
+      "safeForSimultaneousRushProcesses": true,
+      "enableParallelism": true,
+      "ignoreDependencyOrder": true,
+      "ignoreMissingScript": false,
+      "allowWarningsInSuccessfulBuild": true,
+      "incremental": true
+    }
   ],
 
   /**
@@ -386,5 +422,24 @@
     //     }
     //   ]
     // }
+    {
+      "parameterKind": "flag",
+      "longName": "--coverage",
+      "shortName": "-C",
+      "description": "Pass coverage flag to test commands",
+      "associatedCommands": ["test"]
+    },
+    {
+      "parameterKind": "flag",
+      "longName": "--watch",
+      "description": "Pass watch flag to test commands",
+      "associatedCommands": ["test"]
+    },
+    {
+      "parameterKind": "flag",
+      "longName": "--fix",
+      "description": "Auto fix linting errors",
+      "associatedCommands": ["lint"]
+    }
   ]
 }
