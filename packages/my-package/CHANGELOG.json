@@ -2,6 +2,18 @@
   "name": "@geoffreyemerson/my-package",
   "entries": [
     {
+      "version": "2.0.0",
+      "tag": "@geoffreyemerson/my-package_v2.0.0",
+      "date": "Wed, 11 Jan 2023 23:12:06 GMT",
+      "comments": {
+        "major": [
+          {
+            "comment": "an experimental change"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.0",
       "tag": "@geoffreyemerson/my-package_v1.0.0",
       "date": "Wed, 11 Jan 2023 22:42:39 GMT",
