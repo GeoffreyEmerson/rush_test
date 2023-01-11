@@ -1,0 +1,19 @@
+{
+  "name": "@geoffreyemerson/my-package",
+  "entries": [
+    {
+      "version": "1.0.0",
+      "tag": "@geoffreyemerson/my-package_v1.0.0",
+      "date": "Wed, 11 Jan 2023 22:42:39 GMT",
+      "comments": {
+        "major": [
+          {
+            "comment": "initial commit",
+            "author": "Geoffrey Emerson <Geoffrey.Emerson.git@gmail.com>",
+            "commit": "73b5648b2eb49ab99788e0467d34d27d3dd569fb"
+          }
+        ]
+      }
+    }
+  ]
+}
