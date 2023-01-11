@@ -1,0 +1,17 @@
+{
+  "name": "@geoffreyemerson/my-package",
+  "entries": [
+    {
+      "version": "1.0.0",
+      "tag": "@geoffreyemerson/my-package_v1.0.0",
+      "date": "Tue, 10 Jan 2023 18:01:02 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "initial commit"
+          }
+        ]
+      }
+    }
+  ]
+}
