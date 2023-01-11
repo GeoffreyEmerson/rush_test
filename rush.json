@@ -429,5 +429,10 @@
     //   "reviewCategory": "tools",
     //   "tags": [ "tools" ]
     // }
+    {
+      "packageName": "@geoffreyemerson/my-package",
+      "projectFolder": "packages/my-package",
+      "shouldPublish": true
+    }
   ]
 }
