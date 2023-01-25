@@ -2,6 +2,20 @@
   "name": "@geoffreyemerson/my-package",
   "entries": [
     {
+      "version": "2.0.1",
+      "tag": "@geoffreyemerson/my-package_v2.0.1",
+      "date": "Wed, 25 Jan 2023 01:44:08 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "a second alpha change",
+            "author": "Geoffrey Emerson <Geoffrey.Emerson.git@gmail.com>",
+            "commit": "6c723c21338fcf695254410f239aa699eb5854ae"
+          }
+        ]
+      }
+    },
+    {
       "version": "2.0.0",
       "tag": "@geoffreyemerson/my-package_v2.0.0",
       "date": "Wed, 11 Jan 2023 23:12:06 GMT",
