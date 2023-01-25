@@ -1,1 +1,1 @@
-console.log('Hello from my-package in rush_test!');
+console.log('Hello from my-package in rush_test! Another change!');
